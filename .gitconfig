@@ -1,0 +1,20 @@
+[push]
+	default = simple
+[color]
+	ui = always
+[alias]
+	l = log --oneline --decorate
+	c = commit
+	st = status -sb
+	br = branch
+	co = checkout
+	cdiff = diff --cached
+	ap = add -p
+	wdiff = diff --word-diff
+	wip = commit --fixup
+	ff = merge --ff-only
+	ri = rebase -i
+[diff]
+	algorithm = patience
+[grep]
+	lineNumber = true
